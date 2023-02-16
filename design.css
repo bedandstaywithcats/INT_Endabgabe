@@ -1,0 +1,330 @@
+html{
+	font-family:helvetica; sans-serif;
+	color:ghostwhite;
+  height: 100%;
+	}
+	
+body {
+  height: 100%;
+  background-color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-left: 0px;
+  margin-top: 10px;
+  padding: 0px;  
+}
+
+.kopf{
+  background-color: black;
+  height: 120px
+  width: auto;
+  padding: 0px;
+
+}
+
+.kopf a{
+ color: ghostwhite;
+ text-decoration: none;
+ font-size: 180%;
+ font-weight: normal;
+ display: inline-block;
+ margin-top: 50px;
+ margin-left: 0px;
+}
+
+body {
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+}
+
+header {
+  background-color: #c2a9ab;
+  color: ghostwhite;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: ghostwhite;
+  text-decoration: none;
+}
+
+nav ul li a:hover{
+    background-color: #d9cccd;
+    height: 20px;
+    width: 20px;
+}
+
+
+img {
+  width: 300px;
+  height: 300px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  margin-right: 10px;
+}
+
+
+/*Navigationsleiste Menü*/
+navbar {
+  width: auto;
+  heigth: 120px;
+  padding: 0px;
+  color: ghostwhite;
+  background-color:#c2a9ab ;
+  text-decoration: none;
+}
+
+navbar ul{
+  float: right;
+  background-color:#c2a9ab;
+}
+
+navbar ul li{
+  float: left;
+  list-style: none;
+  position: relative;
+}
+
+
+navbar ul li a{
+  font-family: helvetica;
+  color: ghostwhite;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 28px;
+  display: block;
+}
+
+navbar ul li a:hover{
+    background-color: #d9cccd;
+}
+
+
+/*Flexcontainer Startseite Bild und Text*/
+.flex-container-startseite {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.text {
+  width: auto;
+  padding: 0 20px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+
+/*Flexcontainer Über uns Seite*/
+.flex-container-ueberuns {
+  display: flex;
+  align-items: center;
+}
+
+.text{
+  width: auto;
+  padding: 20px;
+  flex-direction: column;
+}
+
+.img{
+  flex-direction: row;
+  margin: 20px;
+  padding: 50px;
+
+}
+
+
+/*Footer*/
+
+.footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+}
+
+footer {
+  background-color: #333;
+  color: ghostwhite;
+  padding: 10px;
+  text-align: center;
+}
+
+footer a{
+  text-decoration: none;
+  color: ghostwhite;
+}
+
+footer a:hover{
+  background-color: #c2a9ab;
+}
+
+
+/*Gestaltung Buchungskalender*/
+.calendar {
+  width: 500px; 
+  height: auto;
+  border: 0px;
+  display: inline-grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(6, 50px);
+  margin-top: 50px;
+  padding-left: 50px;
+  padding-bottom: 50px;
+}
+
+.day {
+  border: 0px;
+  text-align: center;
+}
+
+.dayfrei {
+  border: 0px;
+  text-align: center;
+  color: #c7deba;
+}
+
+.dayfrei:hover{
+  background-color: #4ea816;
+  width: auto;
+  height: 20px;
+  border-radius: 1px;
+}
+
+.daybelegt {
+  border: 0px;
+  text-align: center;
+  color: #f2635e;
+}
+
+.dayvergangenheit{
+  border: 0px;
+  text-align: center;
+  color: #5e5555;
+}
+
+.calendar table{
+  margin-top: 50px;
+  padding-left: 50px;
+  padding-bottom: 50px;
+}
+
+/*jetzt buchen und senden Button*/
+button {
+ display: inline-block;
+ background-color: #d9cccd;
+ border-radius: 5px;
+ border: 4px;
+ color: black;
+ text-align: center;
+ font-size: 15px;
+ padding: 20px;
+ width: auto;
+ cursor: pointer;
+ margin: 5px;
+}
+
+button:hover{
+  background-color:#c7deba;
+}
+
+/*google maps Karte Einbindung*/
+form {
+  margin-top: 50px;
+  padding-left: 50px;
+  padding-bottom: 50px;
+}
+
+.flex-container {
+  flex-direction: row;
+  display: flex;
+}
+
+.maps-container {
+  width: 50%;
+  padding-left: 50px;
+  padding-bottom: 30px;
+}
+
+.adresse-container {
+  width: 50%;
+  padding-left: 50px;
+  padding-bottom: 30px;
+
+}
+
+.nachrichtsenden{
+  width: 50%;
+  padding-left: 50px;
+  padding-bottom: 30px;
+}
+
+/*Shopseite*/
+.shop {
+  margin-top: 50px;
+  padding-left: 50px;
+  padding-bottom: 50px;
+}
+
+/*Impressum und Datenschutzerklärung*/
+.impressum {
+  margin-top: 50px;
+  padding-left: 50px;
+  padding-bottom: 50px;
+}
+
+.datenschutz {
+  margin-top: 50px;
+  padding-left: 50px;
+  padding-bottom: 50px;
+}
+
+form {
+  width: auto;
+  text-align: left;
+}
+
+.button {
+  text-align: center;
+}
+
+
+/*Unternehmungen*/
+
+a {
+  color: ghostwhite;
+  text-decoration: underline;
+}
+
+a:hover {
+ background-color: #c2a9ab; 
+}
+
+.flex-container-zimmer {
+  
+  align-items: center;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+
+.flex-container-zimmer h1{
+  margin-top: 30px;
+
